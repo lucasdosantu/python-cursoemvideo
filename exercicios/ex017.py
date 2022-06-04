@@ -1,11 +1,9 @@
-# Leia o comprimento do cateto oposto e adjacente de um triângulo e calcule a hipotenusa
-from math import sqrt, hypot
+# Calc hypotenuse with oposite and adjacent side.
 
-co = float(input('Digite o comprimento do cateto oposto: '))
-ca = float(input('Digite o comprimento do cateto adjacente: '))
+from math import sqrt
+
+co = float(input('Oposite side: '))
+ca = float(input('Adjacent side: '))
 hi = sqrt(pow(co, 2) + pow(ca, 2))
 
-print(f'A hipotenusa mede {hi:.2f}.\n')
-
-hipo = hypot(co, ca)
-print(f'math.hypot() == {hipo}')
+print(f'Hypotenuse is {hi:.2f}.\n')

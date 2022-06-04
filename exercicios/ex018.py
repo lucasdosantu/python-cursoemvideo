@@ -1,11 +1,12 @@
-# Leia um ângulo qualquer e mostre o valor do seno, cos e tan
+# Calc sin, cos and tan of an angle
+
 from math import sin, cos, tan, radians
-ang = float(input('Escreva um ângulo: '))
+ang = float(input('Type an angle: '))
 rad = radians(ang)
 sen = sin(rad)
 cos = cos(rad)
 tan = tan(rad)
 
-print(f'O SENO de {ang}º é {sen:.2}.')
-print(f'O COSSENO de {ang}º é {cos:.2}.')
-print(f'A TANGENTE de {ang}º é {tan:.2}.')
+print(f'SIN of {ang}º is {sen:.2}.')
+print(f'COS of {ang}º is {cos:.2}.')
+print(f'TAN of {ang}º is {tan:.2}.')

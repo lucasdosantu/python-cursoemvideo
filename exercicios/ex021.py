@@ -1,6 +1,7 @@
-# abrir e reproduzir um arquivo .mp3
+# Open and play a music file
 
-import vlc
-
-p = vlc.MediaPlayer(str(input('Cole o caminho para a música: ')))
-p.play()
+import pygame
+pygame.init()
+pygame.mixer.music.load('./ex021.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()

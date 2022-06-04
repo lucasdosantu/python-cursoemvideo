@@ -1,10 +1,10 @@
-# Algoritmo que leia um número e mostre o seu dobro, seu triplo e raiz quadrada
+# Algorithm that read a number and show it double, triple and square root.
 
-n = int(input('Digite um valor: '))
+n = int(input('Type a number: '))
 d = n * 2
 t = n * 3
 r = n ** (1/2)
 
-print(f'O dobro de {n} é {d}.\n'
-      f'O triplo de {n} é {t}.\n'
-      f'A raiz quadrada de {n} é {r:.2f}.')
+print(f'Double of {n} is {d}.\n'
+      f'Triple of {n} is {t}.\n'
+      f'Square root of {n} is {r:.2f}.')

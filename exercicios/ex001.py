@@ -1,4 +1,4 @@
-# Perguntar o nome e responder com uma mensagem
-nome = input('Qual o seu nome? ')
-print(f'\nOlá, {nome}. É um prazer em te conhecer!')
-# (f'') formata o texto para receber variáveis.
+# Ask a name and anwser with a message
+nome = input('What\'s your name? ')
+print(f'\nHello, {nome}. Nice to meet you!')
+# (f'') format string to receive variables.

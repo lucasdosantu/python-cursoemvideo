@@ -1,6 +1,7 @@
-# Leia um número real e mostre sua porção inteira
+# Read a real number and show it integer part
+
 from math import trunc
-num = float(input('Digite um número real: '))
+num = float(input('Type a real number: '))
 int = int(num)
 
-print(f'A porção inteira de {num} é {int}.')
+print(f'Integer part of {num} is {int}.')

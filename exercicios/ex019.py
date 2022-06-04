@@ -1,13 +1,14 @@
-# Leia quatro nomes e sorteie um deles
+# Read four names and choose one of them
+
 from random import choice
 
-a = str(input('Aluno 1: '))
-b = str(input('Aluno 2: '))
-c = str(input('Aluno 3: '))
-d = str(input('Aluno 4: '))
+a = str(input('Name 1: '))
+b = str(input('Name 2: '))
+c = str(input('Name 3: '))
+d = str(input('Name 4: '))
 
-alunos = [a, b, c, d]
+names = [a, b, c, d]
 
-escolhido = choice(alunos)
+chosen = choice(names)
 
-print(f'O escolhido foi {escolhido}.')
+print(f'Chosen was {chosen}.')

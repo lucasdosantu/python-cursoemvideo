@@ -1,5 +1,5 @@
-# Perguntar dia, mês e ano de nascimento e responder com a idade e data de nascimento
-dia = input('Dia - ')
-mes = input('Mês - ')
-ano = input('Ano - ')
-print('Você nasceu em', dia+'/'+mes+'/'+ano+'.', 'Você têm', int(2022)-int(ano), 'anos de idade.')
+# Ask day, month and year of birthday and answer with age and birthday date.
+month = input('Month - ')
+day = input('Day - ')
+year = input('Year - ')
+print('You\'ve born at', month+'/'+day+'/'+year+'.', 'You are', int(2022)-int(year), 'years old.')

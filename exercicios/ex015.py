@@ -1,11 +1,11 @@
-# Aluguel de carro
-# KM percorrido e a quantidade de dias alugados.
-# sabe-se que R$ 60 por dia  R$ 0,15 por KM rodado
+# Car rent
+# Distance traveled and days rented.
+# $60 per day and $0,15 per distance traveled
 
-dias = int(input('Quantos dias alugados? '))
-km = float(input('Quantos KM rodados? '))
+days = int(input('How many days rented? '))
+distance = float(input('Distance traveled? '))
 
-aluguel = (dias * 60) + (km * .15)
+rentPrice = (days * 60) + (distance * .15)
 
-print(f'O carro foi alugado por {dias} dias e rodou {km:.2f}KM.\n'
-      f'O total a ser pago pelo aluguel é R$ {aluguel:.2f}.')
+print(f'Car was rented for {days} days and traveled {distance:.2f} distance.\n'
+      f'Total to pay is ${rentPrice:.2f}.')

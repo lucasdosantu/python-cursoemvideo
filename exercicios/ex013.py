@@ -1,6 +1,6 @@
-# Aumento de salário em 15%
+# Salary increase of 15%
 
-salario = float(input('Qual o valor do salário? R$ '))
-aumento = salario + (salario * .15)
+salary = float(input('What is the salary? $'))
+increased = salary + (salary * .15)
 
-print(f'O salário de R$ {salario:.2f} passa a ser R$ {aumento:.2f} com 15% de aumento.')
+print(f'The salary of ${salary:.2f} will become ${increased:.2f} with 15% inscrease.')

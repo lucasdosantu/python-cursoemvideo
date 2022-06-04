@@ -1,4 +1,4 @@
-# Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e o seu antecessor
+# Write a program that read a integer number and show it previous and after number.
 
-n = int(input('Digite um número: '))
-print(f'Você digitou {n}. O sucessor é {n+1} e o antecessor é {n-1}.')
+n = int(input('Type a number: '))
+print(f'You\'ve typped {n}. The next number is {n+1} and previous number is {n-1}.')

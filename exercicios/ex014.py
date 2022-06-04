@@ -1,6 +1,6 @@
-# Celsius para Fahrenheit
+# Celsius to Fahrenheit
 
-c = float(input('Qual a temperatura em °C '))
+c = float(input('Tempeture in °C '))
 f = 9 * c / 5 + 32
 
-print(f'{c} °C são {f} °F.')
+print(f'{c} °C is {f} °F.')

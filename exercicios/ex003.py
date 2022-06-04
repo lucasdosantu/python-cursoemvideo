@@ -1,10 +1,11 @@
 # Ler dois números e somar
-n1 = float(input('Digite um número - '))
-n2 = float(input('Digite outro número - '))
+# Read two numbers and soum
+n1 = float(input('Type a number - '))
+n2 = float(input('Type another number - '))
 s = float(n1 + n2)
-print(f'Você digitou {n1} e {n2}. A soma entre eles é {s}.')
+print(f'You\'ve typped {n1} and {n2}. The sum between them is {s}.')
 
-# int() = Números Inteiros 1 2 e 3
-# float() = Números Reais 1.5 2.0 e 3.14
-# bool() = True ou False
-# str('') = 'Olá' ou '7.5'
+# int() = Integer numbers 1 2 n 3
+# float() = Real numbers 1.5 2.0 n 3.14
+# bool() = True or False
+# str('') = 'Hello' or '7.5'
